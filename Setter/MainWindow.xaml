@@ -1,0 +1,22 @@
+﻿<Window x:Class="Setter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Setter"
+        mc:Ignorable="d"
+        Title="Digital Clock Setter" Height="282.352" Width="450.841">
+    <Grid>
+        <Label Content="Hr" HorizontalAlignment="Left" FontSize="16" Margin="51,43,0,0" VerticalAlignment="Top" Height="33" Width="48"/>
+        <Label Content="Min" HorizontalAlignment="Left" FontSize="16" Margin="133,43,0,0" VerticalAlignment="Top" Height="33" Width="48" RenderTransformOrigin="1.37,0.593"/>
+        <Label Content="Sec" HorizontalAlignment="Left" FontSize="16" Margin="215,43,0,0" VerticalAlignment="Top" Height="33" Width="48"/>
+        <TextBox HorizontalAlignment="Left" Text="{Binding Hour}" Height="35" Margin="41,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="58"/>
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="123,76,0,0" TextWrapping="Wrap" Text="{Binding Minute}" VerticalAlignment="Top" Width="58"/>
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="205,76,0,0" TextWrapping="Wrap" Text="{Binding Second}" VerticalAlignment="Top" Width="58"/>
+        <CheckBox Name="checkBox24hrs" FontSize="24" Content="24 hours" HorizontalAlignment="Left" Margin="41,138,0,0" VerticalAlignment="Top" Height="29" Width="232" Checked="CheckBox_Checked" Unchecked="CheckBox_UnChecked"/>
+        <Button Content="Set Alarm" HorizontalAlignment="Left" Margin="283,76,0,0" VerticalAlignment="Top" Width="120" Height="35" Click="Button_Click_2"/>
+        <Button Content="Show Current" HorizontalAlignment="Left" Margin="283,116,0,0" VerticalAlignment="Top" Width="120" Height="35" Click="Button_Click"/>
+        <Button Content="Set Time" HorizontalAlignment="Left" Margin="283,156,0,0" VerticalAlignment="Top" Width="120" Height="35" Click="Button_Click_1"/>
+        <Label Name="AlarmSet" HorizontalContentAlignment="Center" Content="Alarm has been set. The alarm label will disappear after 10 seconds." HorizontalAlignment="Left" Margin="10,218,0,0" VerticalAlignment="Top" Width="423" Visibility="{Binding SetAlarmButtonVisibility}"/>
+    </Grid>
+</Window>

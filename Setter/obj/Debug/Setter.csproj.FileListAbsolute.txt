@@ -1,0 +1,16 @@
+\\hd.ad.syr.edu\02\e9393a\Documents\Desktop\Setter\obj\Debug\MainWindow.g.cs
+\\hd.ad.syr.edu\02\e9393a\Documents\Desktop\Setter\obj\Debug\App.g.cs
+\\hd.ad.syr.edu\02\e9393a\Documents\Desktop\Setter\obj\Debug\Setter_MarkupCompile.cache
+\\hd.ad.syr.edu\02\e9393a\Documents\Desktop\Setter\obj\Debug\Setter_MarkupCompile.lref
+\\hd.ad.syr.edu\02\e9393a\Documents\Desktop\Setter\bin\Debug\Setter.exe.config
+\\hd.ad.syr.edu\02\e9393a\Documents\Desktop\Setter\bin\Debug\Setter.exe
+\\hd.ad.syr.edu\02\e9393a\Documents\Desktop\Setter\bin\Debug\Setter.pdb
+\\hd.ad.syr.edu\02\e9393a\Documents\Desktop\Setter\bin\Debug\TimeDataDLL.dll
+\\hd.ad.syr.edu\02\e9393a\Documents\Desktop\Setter\obj\Debug\MainWindow.baml
+\\hd.ad.syr.edu\02\e9393a\Documents\Desktop\Setter\obj\Debug\Setter.g.resources
+\\hd.ad.syr.edu\02\e9393a\Documents\Desktop\Setter\obj\Debug\Setter.Properties.Resources.resources
+\\hd.ad.syr.edu\02\e9393a\Documents\Desktop\Setter\obj\Debug\Setter.csproj.GenerateResource.cache
+\\hd.ad.syr.edu\02\e9393a\Documents\Desktop\Setter\obj\Debug\Setter.csproj.CoreCompileInputs.cache
+\\hd.ad.syr.edu\02\e9393a\Documents\Desktop\Setter\obj\Debug\Setter.exe
+\\hd.ad.syr.edu\02\e9393a\Documents\Desktop\Setter\obj\Debug\Setter.pdb
+\\hd.ad.syr.edu\02\e9393a\Documents\Desktop\Setter\obj\Debug\Setter.csprojResolveAssemblyReference.cache
